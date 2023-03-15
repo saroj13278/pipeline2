@@ -14,7 +14,9 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo "Deploying"
+                               
+                    echo 'This branch does not have deployment'
+
                
             }
         }
